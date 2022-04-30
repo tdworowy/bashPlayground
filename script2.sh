@@ -7,13 +7,10 @@ do
         var=$(echo $var | base64)
 		
 	if [[ "$var" == *"$value"* && ${var#} > 113469 ]] 
-
         then
-	    
 	    echo ${#var}
 	    echo $var | tail -c 20	
             echo ${var: -19}  
-	 
        fi
 done
 
