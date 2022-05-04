@@ -11,4 +11,4 @@ do
       echo "  $file"
     fi
   done
-done  
+done > executable.txt 
