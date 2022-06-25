@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 IFS=:
 for dir in $PATH
