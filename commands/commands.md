@@ -86,3 +86,13 @@ bettercap -iface wlan0
 net.probe on
 net.show
 ``` 
+
+send output of commend to file continuously
+```bash
+<command> 2>&1 | tee -a fileName.log
+``` 
+
+tail over ssh
+```bash
+ ssh user@host -f tail -f fileName.log
+ ``` 
