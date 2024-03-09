@@ -63,6 +63,26 @@
 
     journalctl <- query the systemd journal.  
 
+### tmux:
+    tmux <- starts new tmux session
+    ctrl + B, D <- detach from session 
+    tmux -a <- attach to session
+    tmux ls <- list sessions
+    tmux kill-session -t <name>
+
+    ctrl + B, % <- new pane (vertically)
+    ctrl + B, " <- new pane (horizontally)
+
+    ctrl + B, q <- displays pane index
+    ctrl + B, arrows <- navigation
+    ctrl + B, ctrl + arrow <- change pane size
+    ctrl + B, alt + 1,2,3,4,5 <- change pane layout
+
+    ctrl + B, C <- new window
+    ctrl + B, N <- move through windows
+    ctrl + B, W <- get windows list
+
+    tmux kill-server
 
 ### oneliners:
 
