@@ -39,6 +39,8 @@
     export <varieble name> = <value>
     unset <variable name> <- delete variable
  
+ ### boot
+     efibootmgr -v  <-display sumary of boot configuration  
  
 ### other:
     lsblk <- list block devices
