@@ -68,7 +68,7 @@
 ### tmux:
     tmux <- starts new tmux session
     ctrl + B, D <- detach from session 
-    tmux -a <- attach to session
+    tmux a <- attach to session
     tmux ls <- list sessions
     tmux kill-session -t <name>
 
